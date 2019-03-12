@@ -604,8 +604,8 @@ omise:
 
 # Working credentials, no need to replace
 openpay:
-  key: 'sk_ef9c690c9e9c4b2fae65fd8acddb80aeb'
-  merchant_id: 'mmqugwwv1ulncywpnwyh5'
+  key: 'sk_e568c42a6c384b7ab02cd47d2e407cab'
+  merchant_id: 'mzdtln0bmtms6o3kck8f'
 
 opp:
   user_id: '8a8294174b7ecb28014b9699220015cc'
