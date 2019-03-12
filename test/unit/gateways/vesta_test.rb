@@ -32,7 +32,7 @@ class VestaTest < Test::Unit::TestCase
         address2: "Paris",
         city: "Acapulco",
         region: "Guerrero",
-        country: "MX,
+        country: "MX",
         zip: "5555",
         name: "Mario Reyes",
         phone: "12345678",
