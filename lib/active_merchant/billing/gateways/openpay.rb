@@ -21,6 +21,7 @@ module ActiveMerchant #:nodoc:
         requires!(options, :key, :merchant_id)
         @api_key = options[:key]
         @merchant_id = options[:merchant_id]
+        @sandbox_mode = options.has_key?(:sandbox_mode) ? options[:sandbox_mode] : false
         super
       end
 
