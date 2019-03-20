@@ -13,7 +13,7 @@ module ActiveMerchant #:nodoc:
       # Instantiate a instance of OpenpayGateway by passing through your
       # merchant id and private api key.
       #
-      # === To obtain your own credentials
+      # === To obtain your own credentials 
       # 1. Visit http://openpay.mx
       # 2. Sign up
       # 3. Activate your account clicking on the email confirmation
@@ -21,7 +21,7 @@ module ActiveMerchant #:nodoc:
         requires!(options, :key, :merchant_id)
         @api_key = options[:key]
         @merchant_id = options[:merchant_id]
-        @sandbox_mode = options.has_key?(:sandbox_mode) ? options[:sandbox_mode] : false
+        @sandbox_mode = options.has_key?(:sandbox_mode) ? options[:sandbox_mode] : true
         super
       end
 
